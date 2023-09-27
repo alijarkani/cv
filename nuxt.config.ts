@@ -2,8 +2,9 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    "vuetify-nuxt-module",
-    "@nuxtjs/i18n"
+    'vuetify-nuxt-module',
+    '@nuxtjs/i18n',
+    '@nuxtjs/eslint-module'
   ],
   i18n: {
     locales: [

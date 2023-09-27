@@ -5,14 +5,20 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "lint:fix": "eslint --ext .vue --ext .ts . --fix",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "@nuxtjs/eslint-module": "^4.1.0",
     "@nuxtjs/i18n": "^8.0.0-rc.4",
+    "@typescript-eslint/parser": "^6.7.3",
+    "eslint": "^8.50.0",
     "nuxt": "^3.7.4",
+    "vue-eslint-parser": "^9.3.1",
     "vuetify-nuxt-module": "^0.5.12"
   },
   "dependencies": {
