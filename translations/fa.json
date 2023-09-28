@@ -1,2 +1,18 @@
 {
+  "title": "وبسایت شخصی",
+  "owner": {
+    "first_name": "علی",
+    "last_name": "جرکانی",
+    "full_name": "علی جرکانی",
+    "job": "برنامه‌نویس"
+  },
+  "sidebar": {
+    "home": "صفحه نخست"
+  },
+  "social": {
+    "github": "گیت‌هاب",
+    "linkedin": "لینکدین",
+    "twitter": "توئیتر",
+    "telegram": "تلگرام"
+  }
 }

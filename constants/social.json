@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "mdi-github",
+    "key": "github",
+    "url": "#"
+  },
+  {
+    "icon": "mdi-linkedin",
+    "key": "linkedin",
+    "url": "#"
+  },
+  {
+    "icon": "mdi-twitter",
+    "key": "twitter",
+    "url": "#"
+  },
+  {
+    "icon": "mdi-send",
+    "key": "telegram",
+    "url": "#"
+  }
+]

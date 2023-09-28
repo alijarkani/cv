@@ -1,2 +1,18 @@
 {
+  "title": "Personal Website",
+  "owner": {
+    "first_name": "Ali",
+    "last_name": "Jarkani",
+    "full_name": "Ali Jarkani",
+    "job": "Programmer"
+  },
+  "sidebar": {
+    "home": "Home"
+  },
+  "social": {
+    "github": "Github",
+    "linkedin": "LinkedIn",
+    "twitter": "Twitter",
+    "telegram": "Telegram"
+  }
 }

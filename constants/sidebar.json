@@ -1,0 +1,7 @@
+[
+  {
+    "icon": "mdi-home",
+    "key": "home",
+    "to": "/"
+  }
+]
