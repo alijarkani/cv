@@ -20,7 +20,6 @@ const { isRtl } = useRtl()
 .slide-enter-from,
 .slide-leave-to {
     opacity: 0;
-    filter: blur(5px);
     transform: translate(-100px, 0);
 }
 
