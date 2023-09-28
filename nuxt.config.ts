@@ -4,6 +4,11 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: 'slide', mode: 'out-in' }
   },
+  css: [
+    '@/node_modules/vazirmatn/Vazirmatn-font-face.css',
+    '@/assets/style/main.scss',
+    '@/assets/style/fonts.css'
+  ],
   devtools: { enabled: true },
   modules: [
     'vuetify-nuxt-module',
