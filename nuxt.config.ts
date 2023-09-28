@@ -1,3 +1,5 @@
+// @ts-ignore
+import themes from './themes.ts'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   // @ts-ignore
@@ -17,6 +19,14 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
   ],
+  vuetify: {
+    vuetifyOptions: {
+      theme: {
+        defaultTheme: 'dark',
+        themes,
+      }
+    },
+  },
   i18n: {
     locales: [
       {
