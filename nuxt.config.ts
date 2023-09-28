@@ -4,7 +4,9 @@ export default defineNuxtConfig({
   modules: [
     'vuetify-nuxt-module',
     '@nuxtjs/i18n',
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    '@pinia/nuxt',
+    '@pinia-plugin-persistedstate/nuxt',
   ],
   i18n: {
     locales: [
