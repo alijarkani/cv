@@ -1,5 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  // @ts-ignore
+  app: {
+    pageTransition: { name: 'slide', mode: 'out-in' }
+  },
   devtools: { enabled: true },
   modules: [
     'vuetify-nuxt-module',

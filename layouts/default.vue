@@ -6,11 +6,15 @@ const display = useDisplay()
 </script>
 
 <template>
-  <v-app>
-    <v-main>
-      <NavigationDrawer />
-      <AppBar v-if="display.height.value && display.mobile.value" />
-      <slot />
-    </v-main>
-  </v-app>
+  <v-main>
+    <NavigationDrawer />
+    <AppBar v-if="display.height.value && display.mobile.value" />
+    <slot />
+  </v-main>
 </template>
+
+<style>
+.v-main {
+    overflow: hidden;
+}
+</style>
