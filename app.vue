@@ -4,6 +4,8 @@ const { isRtl } = useRtl()
 
 <template>
   <v-locale-provider :rtl="isRtl">
-    <NuxtPage />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </v-locale-provider>
 </template>
