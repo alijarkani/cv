@@ -1,3 +1,14 @@
+$family: "Lora", "Vazirmatn", sans-serif;
+
+@use "../../node_modules/vuetify" with (
+  $font-size-root: 1.0rem,
+  $body-font-family: $family
+);
+
 html {
-  font-family: "Lora", "Vazirmatn", sans-serif;
+  font-family: $family;
+}
+
+.big-text {
+  font-size: 1.1rem;
 }
