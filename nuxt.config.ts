@@ -3,9 +3,6 @@ import i18n from './translations/i18n'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  app: {
-    pageTransition: { name: 'slide', mode: 'out-in' }
-  },
   css: [
     '@/node_modules/vazirmatn/Vazirmatn-font-face.css',
     '@/assets/style/main.scss',

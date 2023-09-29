@@ -19,6 +19,7 @@ const i18n: NuxtI18nOptions = {
   ],
   langDir: 'translations/',
   defaultLocale: 'en',
+  skipSettingLocaleOnNavigate: true,
 }
 
 export default i18n

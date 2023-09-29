@@ -1,12 +1,27 @@
 <script setup lang="ts">
+import { TransitionProps } from 'vue'
 const { isRtl } = useRtl()
+const locale = useLocale()
+
+const i18n = useI18n()
+
+const onBeforeEnter = async () => {
+  await i18n.finalizePendingLocaleChange()
+  locale.current.value = i18n.locale.value
+}
+
+const transition: TransitionProps = {
+  name: 'slide',
+  mode: 'out-in',
+  onBeforeEnter,
+}
 </script>
 
 <template>
   <v-app>
     <v-locale-provider :rtl="isRtl">
       <NuxtLayout>
-        <NuxtPage />
+        <NuxtPage :transition="transition" />
       </NuxtLayout>
     </v-locale-provider>
   </v-app>
