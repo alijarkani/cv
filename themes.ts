@@ -4,7 +4,7 @@ const dark: ThemeDefinition = {
   dark: true,
   colors: {
     background: '#000',
-    surface: '#fff',
+    surface: '#353535',
     primary: '#ed553b',
     secondary: '#2f2935',
     error: '#B00020',
