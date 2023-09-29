@@ -8,5 +8,10 @@
     "icon": "mdi-account",
     "key": "about",
     "to": "/about"
+  },
+  {
+    "icon": "mdi-wrench",
+    "key": "skills",
+    "to": "/skills"
   }
 ]

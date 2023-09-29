@@ -9,7 +9,7 @@
   "sidebar": {
     "home": "Home",
     "about": "About",
-    "skills": "My Skills"
+    "skills": "Skills"
   },
   "social": {
     "github": "Github",
@@ -18,7 +18,6 @@
     "telegram": "Telegram"
   },
   "skill": {
-    "my_skills": "My Skills",
     "scientific": "Scientific Programming",
     "python": "Python",
     "matlab": "Matlab",
@@ -48,7 +47,8 @@
     "nosql": "NoSQL",
     "graphql": "GraphQL",
     "vcs": "Version Control System",
-    "git": "Git"
+    "git": "Git",
+    "more": "More skills are coming soon ..."
   },
   "copyright": {
     "message": "Ali Jarkani, All Rights Reserved.",
