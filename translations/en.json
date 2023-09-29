@@ -47,5 +47,10 @@
     "graphql": "GraphQL",
     "vcs": "Version Control System",
     "git": "Git"
+  },
+  "copyright": {
+    "message": "Ali Jarkani, All Rights Reserved.",
+    "design": "Design with",
+    "design_by": "by myself!"
   }
 }

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import NavigationDrawer from '~/components/common/NavigationDrawer.vue'
 import AppBar from '~/components/common/AppBar.vue'
+import CopyRight from '~/components/common/CopyRight.vue'
 
 const display = useDisplay()
 </script>
@@ -13,6 +14,7 @@ const display = useDisplay()
       <div class="content">
         <slot />
       </div>
+      <CopyRight class="mx-n4 px-8" />
     </div>
   </v-main>
 </template>
@@ -24,21 +26,19 @@ const display = useDisplay()
 
 .abstract-bg {
     position: relative;
-    min-height: calc(100vh - 60px);
 }
 
 .abstract-bg:after {
     content: ' ';
     display: block;
-    position: absolute;
-    bottom: 0;
+    position: fixed;
+    top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     opacity: 0.05;
-    background-position-x: center;
-    background-position-y: bottom;
-    background-size: contain;
+    background-position: left bottom;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url("/bg-01.png");
 }
@@ -46,5 +46,6 @@ const display = useDisplay()
 .content {
   position: relative;
   z-index: 1;
+  min-height: calc(100vh - 80px);
 }
 </style>
