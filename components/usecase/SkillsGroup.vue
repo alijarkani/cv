@@ -15,7 +15,7 @@ const { groups, template } = props
 
 <template>
   <div>
-    <div class="ps-0 ps-md-10 d-flex flex-column" :class="{'grid-view': !display.mobile.value}" :style="{gridTemplateAreas: template}">
+    <div class="d-flex flex-column" :class="{'grid-view': display.smAndUp.value}" :style="{gridTemplateAreas: template}">
       <SkillsList
         v-for="group in groups"
         :key="group.title"
@@ -31,6 +31,6 @@ const { groups, template } = props
 <style>
 .grid-view {
   display: grid!important;
-  row-gap: 10px;
+  gap: 10px 20px;
 }
 </style>

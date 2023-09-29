@@ -15,9 +15,7 @@ const template = ref(blocks.map(e => `'${e}'`).join(' '))
 
 <template>
   <v-container>
-    <h4 class="text-h4 text-primary font-weight-bold font-italic mb-8">
-      {{ $t('sidebar.skills') }}
-    </h4>
+    <basic-heading>{{ $t('sidebar.skills') }}</basic-heading>
     <skills-group :template="template" :groups="skills" />
     <basic-paragraph class="mt-10 mb-16 font-italic">
       <v-icon>mdi-dots-horizontal-circle-outline</v-icon>
