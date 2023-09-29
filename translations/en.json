@@ -7,7 +7,9 @@
     "job": "Programmer"
   },
   "sidebar": {
-    "home": "Home"
+    "home": "Home",
+    "about": "About",
+    "skills": "My Skills"
   },
   "social": {
     "github": "Github",

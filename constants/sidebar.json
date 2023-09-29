@@ -3,5 +3,10 @@
     "icon": "mdi-home",
     "key": "home",
     "to": "/"
+  },
+  {
+    "icon": "mdi-account",
+    "key": "about",
+    "to": "/about"
   }
 ]
