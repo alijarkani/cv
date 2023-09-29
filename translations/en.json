@@ -50,6 +50,15 @@
       }
     ]
   },
+  "honors": {
+    "title": "Honors",
+    "items": [
+      "First place in 6th Birjand University Annual ACM/ICPC",
+      "48th place in 2016 ACM/ICPC Sharif University of Technology – Asia Region",
+      "Head judge of 7th to 11th Birjand University Annual ACM/ICPC",
+      "Co-founder of PenCode programming and software development company"
+    ]
+  },
   "skill": {
     "scientific": "Scientific Programming",
     "python": "Python",

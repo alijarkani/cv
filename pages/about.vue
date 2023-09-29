@@ -54,6 +54,18 @@ const { tm } = useI18n()
       </v-col>
     </v-row>
 
+    <v-row class="my-5">
+      <v-col>
+        <basic-heading>{{ $t('honors.title') }}</basic-heading>
+        <div>
+          <basic-paragraph v-for="item in tm('honors.items')" :key="item.loc.source">
+            <v-icon>mdi-check</v-icon>
+            {{ item.loc.source }}
+          </basic-paragraph>
+        </div>
+      </v-col>
+    </v-row>
+
     <div v-if="display.smAndDown.value" class="mt-5">
       <v-img max-width="300" class="mx-auto grayscale" src="/body.png" />
     </div>
