@@ -20,7 +20,7 @@ const { title, items, icon } = props
       <span>{{ $t(`skill.${title}`) }}</span>
     </h5>
     <div class="ps-10">
-      <v-row v-for="item in items" :key="item.title">
+      <v-row v-for="item in items" :key="item.key">
         <v-col>
           <a target="_blank" :href="item.url" class="font-weight-bold font-italic text-decoration-none text-white">{{ $t(`skill.${item.key}`) }}</a>
         </v-col>
