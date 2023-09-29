@@ -1,0 +1,159 @@
+[
+  {
+    "title": "scientific",
+    "icon": "mdi-chart-bell-curve",
+    "items": [
+      {
+        "key": "python",
+        "rate": 5,
+        "url": "https://www.python.org/"
+      },
+      {
+        "key": "matlab",
+        "rate": 2,
+        "url": "https://www.mathworks.com/"
+      }
+    ]
+  },
+  {
+    "title": "backend",
+    "icon": "mdi-code-json",
+    "items": [
+      {
+        "key": "php_symfony",
+        "rate": 5,
+        "url": "https://symfony.com/"
+      },
+      {
+        "key": "python_django",
+        "rate": 3,
+        "url": "https://www.djangoproject.com/"
+      },
+      {
+        "key": "node",
+        "rate": 2,
+        "url": "https://nodejs.org/"
+      }
+    ]
+  },
+  {
+    "title": "frontend",
+    "icon": "mdi-xml",
+    "items": [
+      {
+        "key": "html5",
+        "rate": 5,
+        "url":"https://html5.org/"
+      },
+      {
+        "key": "css3",
+        "rate": 5,
+        "url": "https://www.css3.com/"
+      },
+      {
+        "key": "javascript",
+        "rate": 5,
+        "url": "https://www.javascript.com/"
+      },
+      {
+        "key": "typescript",
+        "rate": 4,
+        "url": "https://www.typescriptlang.org/"
+      },
+      {
+        "key": "vue",
+        "rate": 4,
+        "url": "https://vuejs.org/"
+      },
+      {
+        "key": "nuxt",
+        "rate": 4,
+        "url": "https://nuxt.com/"
+      },
+      {
+        "key": "vuetify",
+        "rate": 4,
+        "url": "https://vuetifyjs.com/"
+      },
+      {
+        "key": "bootstrap",
+        "rate": 3,
+        "url": "https://getbootstrap.com/"
+      }
+    ]
+  },
+  {
+    "title": "devops",
+    "icon": "mdi-cloud-upload-outline",
+    "items": [
+      {
+        "key": "docker",
+        "rate": 3,
+        "url": "https://www.docker.com/"
+      }
+    ]
+  },
+  {
+    "title": "ai_libraries",
+    "icon": "mdi-robot-outline",
+    "items": [
+      {
+        "key": "pytorch",
+        "rate": 5,
+        "url": "https://pytorch.org/"
+      },
+      {
+        "key": "tensorflow",
+        "rate": 4,
+        "url": "https://www.tensorflow.org/"
+      },
+      {
+        "key": "pandas",
+        "rate": 4,
+        "url": "https://pandas.pydata.org/"
+      },
+      {
+        "key": "numpy",
+        "rate": 5,
+        "url": "https://numpy.org/"
+      },
+      {
+        "key": "scikit",
+        "rate": 2,
+        "url": "https://scikit-learn.org/"
+      }
+    ]
+  },
+  {
+    "title": "vcs",
+    "icon": "mdi-source-branch",
+    "items": [
+      {
+        "key": "git",
+        "rate": 4,
+        "url": "https://github.com/"
+      }
+    ]
+  },
+  {
+    "title": "database",
+    "icon": "mdi-database-outline",
+    "items": [
+      {
+        "key": "sql",
+        "rate": 4,
+        "url": "https://www.mysql.com/"
+      },
+      {
+        "key": "nosql",
+        "rate": 2,
+        "url": "https://www.mongodb.com/"
+      },
+      {
+        "key": "graphql",
+        "rate": 2,
+        "url": "https://graphql.org/"
+      }
+    ]
+  }
+]
