@@ -22,9 +22,11 @@
     "title": "Who am I?",
     "description": "I am a passionate programmer with extensive experience in web development, both on the frontend and backend. Throughout my journey, I have honed my skills in various programming languages and technologies. However, my true fascination lies in the realm of artificial intelligence. Specifically, I have a deep interest in machine learning, particularly deep learning techniques. Additionally, I possess expertise in computer vision and digital image processing. With a strong foundation and a curious mind, I am constantly seeking new challenges to further expand my knowledge and skills in everything related to programming.",
     "labels": [
-      "Web Full Stack Developer",
+      "Web Full Stack",
+      "AI Engineer",
       "Data Scientist",
-      "Deep Learning Engineer"
+      "Deep Learning Engineer",
+      "Researcher"
     ]
   },
   "education": {
@@ -55,6 +57,7 @@
     "title": "Honors",
     "items": [
       "First place in 6th Birjand University Annual ACM/ICPC",
+      "Member of the Computer Scientific Association of the University of Birjand in 2016-2017",
       "48th place in 2016 ACM/ICPC Sharif University of Technology – Asia Region",
       "Head judge of 7th to 11th Birjand University Annual ACM/ICPC",
       "Co-founder of PenCode programming and software development company"
@@ -77,6 +80,7 @@
     "nuxt": "Nuxt",
     "vuetify": "Vuetify",
     "bootstrap": "Bootstrap",
+    "pwa": "PWA",
     "devops": "DevOps",
     "docker": "Docker",
     "ai_libraries": "AI Libraries",
