@@ -31,7 +31,7 @@
       },
       {
         "key": "node",
-        "rate": 2,
+        "rate": 3,
         "url": "https://nodejs.org/"
       }
     ]
@@ -57,12 +57,12 @@
       },
       {
         "key": "typescript",
-        "rate": 4,
+        "rate": 5,
         "url": "https://www.typescriptlang.org/"
       },
       {
         "key": "vue",
-        "rate": 4,
+        "rate": 5,
         "url": "https://vuejs.org/"
       },
       {
@@ -72,13 +72,18 @@
       },
       {
         "key": "vuetify",
-        "rate": 4,
+        "rate": 5,
         "url": "https://vuetifyjs.com/"
       },
       {
         "key": "bootstrap",
-        "rate": 3,
+        "rate": 4,
         "url": "https://getbootstrap.com/"
+      },
+      {
+        "key": "pwa",
+        "rate": 5,
+        "url": "https://web.dev/progressive-web-apps/"
       }
     ]
   },

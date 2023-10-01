@@ -6,7 +6,7 @@ const blocks = [
   'backend frontend',
   'scientific frontend',
   'devops frontend',
-  'ai_libraries vcs',
+  'vcs frontend',
   'ai_libraries database',
 ]
 
