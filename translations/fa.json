@@ -9,7 +9,8 @@
   "sidebar": {
     "home": "صفحه نخست",
     "about": "درباره",
-    "skills": "مهارت‌ها"
+    "skills": "مهارت‌ها",
+    "experiences": "سوابق"
   },
   "social": {
     "github": "گیت‌هاب",
@@ -96,5 +97,82 @@
     "message": "کلیه حقوق محفوظ است.",
     "design": "طراحی شده با",
     "design_by": "توسط خودم!"
+  },
+  "experience": {
+    "title": "سوابق کاری",
+    "more": "و مشارکت در تعداد زیادی پروژه دیگر ...",
+    "items": [
+      {
+        "title": "آچاره",
+        "position": "ارشد فرانت اند پنل متخصصین آچاره",
+        "date": "آذر 1398 - تیر 1399"
+      },
+      {
+        "title": "پن کد",
+        "position": "ارشد وب بک اند",
+        "date": "مرداد 1396 - آذر 1398"
+      },
+      {
+        "title": "فریلنسر",
+        "position": "برنامه نویس مبتدی و البته یک خودآموز عالی",
+        "date": "مهر 1392 - مرداد 1396"
+      }
+    ]
+  },
+  "projects": {
+    "title": "پروژه‌های انجام شده",
+    "preview": "پیش نمایش",
+    "role": "نقش",
+    "roles": {
+      "frontend": "طراح فرانت اند",
+      "backend": "توسعه دهنده بک اند",
+      "fullstack": "توسعه دهنده فول استک"
+    },
+    "tags": {
+      "vue": "Vue",
+      "nuxt": "Nuxt",
+      "vuetify": "Vuetify",
+      "typescript": "TypeScript",
+      "javascript": "JavaScript",
+      "html5": "HTML5",
+      "css3": "CSS3",
+      "sass": "Sass",
+      "restful": "RESTful API",
+      "symfony": "Symfony",
+      "twig": "Twig",
+      "mysql": "MySQL",
+      "php": "PHP",
+      "orm": "ORM",
+      "mvc": "MVC",
+      "angularjs": "AngularJS"
+    },
+    "madreseh_plus": {
+      "title": "مدرسه پلاس",
+      "subtitle": "پرتال وب"
+    },
+    "azhir": {
+      "title": "آژیر",
+      "subtitle": "وبسایت و اپلیکیشن خدماتی"
+    },
+    "khayerin": {
+      "title": "خیرین سلامت",
+      "subtitle": "وبسایت خیریه"
+    },
+    "achareh": {
+      "title": "آچاره",
+      "subtitle": "وبسایت و اپلیکشن خدماتی"
+    },
+    "ajilux": {
+      "title": "آجیلوکس",
+      "subtitle": "وبسایت فروشگاهی"
+    },
+    "uisssa": {
+      "title": "انجمن‌های آمار ایران",
+      "subtitle": "وبسایت خبری و بلاگ"
+    },
+    "cms": {
+      "title": "سیستم مدیریت محتوای پن‌کد",
+      "subtitle": "پنل مدیریت"
+    }
   }
 }

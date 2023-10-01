@@ -9,7 +9,8 @@
   "sidebar": {
     "home": "Home",
     "about": "About",
-    "skills": "Skills"
+    "skills": "Skills",
+    "experiences": "Experiences"
   },
   "social": {
     "github": "Github",
@@ -96,5 +97,82 @@
     "message": "All Rights Reserved.",
     "design": "Design with",
     "design_by": "by myself!"
+  },
+  "experience": {
+    "title": "Job Experiences",
+    "more": "Also, contribution to a lot of other projects ...",
+    "items": [
+      {
+        "title": "Achareh Company",
+        "position": "Head of FrontEnd Developer of Advisors panel",
+        "date": "November 2019 - July 2020"
+      },
+      {
+        "title": "PenCode Company",
+        "position": "Head of BackEnd Developer",
+        "date": "August 2017 - November 2019"
+      },
+      {
+        "title": "Freelancer",
+        "position": "A junior programmer and also a great Self-Learner",
+        "date": "October 2013 - August 2017"
+      }
+    ]
+  },
+  "projects": {
+    "title": "What I've done",
+    "preview": "Preview",
+    "role": "Role",
+    "roles": {
+      "frontend": "FrontEnd Developer",
+      "backend": "BackEnd Developer",
+      "fullstack": "Full Stack Developer"
+    },
+    "tags": {
+      "vue":  "Vue",
+      "nuxt":  "Nuxt",
+      "vuetify": "Vuetify",
+      "typescript": "TypeScript",
+      "javascript": "JavaScript",
+      "html5": "HTML5",
+      "css3": "CSS3",
+      "sass": "Sass",
+      "restful": "RESTful API",
+      "symfony": "Symfony",
+      "twig": "Twig",
+      "mysql": "MySQL",
+      "php": "PHP",
+      "orm": "ORM",
+      "mvc": "MVC",
+      "angularjs": "AngularJS"
+    },
+    "madreseh_plus": {
+      "title": "Madreseh Plus",
+      "subtitle": "Web portal"
+    },
+    "azhir": {
+      "title": "Azhir",
+      "subtitle": "Service application and website"
+    },
+    "khayerin": {
+      "title": "Khayerin Salamat",
+      "subtitle": "Charity website"
+    },
+    "achareh": {
+      "title": "Achareh",
+      "subtitle": "Service application and website"
+    },
+    "ajilux": {
+      "title": "Ajilux",
+      "subtitle": "Shopping website"
+    },
+    "uisssa": {
+      "title": "Associations of Statistics of Iran",
+      "subtitle": "News and Blog Website"
+    },
+    "cms": {
+      "title": "PenCode CMS",
+      "subtitle": "Admin Panel"
+    }
   }
 }

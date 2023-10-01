@@ -13,5 +13,10 @@
     "icon": "mdi-wrench",
     "key": "skills",
     "to": "/skills"
+  },
+  {
+    "icon": "mdi-application",
+    "key": "experiences",
+    "to": "/experiences"
   }
 ]
