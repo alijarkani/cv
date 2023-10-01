@@ -7,6 +7,7 @@ import items from '~/constants/sidebar.json'
 const localePath = useLocalePath()
 const display = useDisplay()
 const common = useCommonStore()
+const { t } = useI18n()
 </script>
 
 <template>
@@ -20,15 +21,15 @@ const common = useCommonStore()
       <v-list-item
         lines="three"
         prepend-avatar="/avatar.png"
-        :title="$t('owner.full_name')"
-        :subtitle="$t('owner.job')"
+        :title="t('owner.full_name')"
+        :subtitle="t('owner.job')"
         class="user"
       >
         <template #prepend>
           <v-avatar size="55">
             <v-img
               src="/avatar.png"
-              :alt="$t('owner.full_name')"
+              :alt="t('owner.full_name')"
             />
           </v-avatar>
         </template>
@@ -49,7 +50,7 @@ const common = useCommonStore()
         v-for="item in items"
         :key="item.key"
         :prepend-icon="item.icon"
-        :title="$t(`sidebar.${item.key}`)"
+        :title="t(`sidebar.${item.key}`)"
         :to="localePath(item.to)"
       />
     </v-list>

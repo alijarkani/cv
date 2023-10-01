@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import projects from '~/constants/projects.json'
 import ProjectCard from '~/components/projects/ProjectCard.vue'
-const { tm } = useI18n()
+const { tm, rt, t } = useI18n()
 const display = useDisplay()
 </script>
 
 <template>
   <v-container>
-    <basic-heading>{{ $t('experience.title') }}</basic-heading>
+    <basic-heading>{{ t('experience.title') }}</basic-heading>
 
     <div class="my-5">
       <v-timeline side="end">
@@ -17,25 +17,25 @@ const display = useDisplay()
           size="small"
         >
           <template #opposite>
-            <span v-if="display.smAndUp.value" class="font-italic" v-text="item.date.loc.source" />
+            <span v-if="display.smAndUp.value" class="font-italic" v-text="rt(item.date)" />
           </template>
 
           <v-card color="transparent">
             <v-card-title class="ps-0">
-              {{ item.title.loc.source }}
+              {{ rt(item.title) }}
             </v-card-title>
             <v-card-subtitle class="font-weight-bold ps-0 text-wrap">
-              {{ item.position.loc.source }}
+              {{ rt(item.position) }}
             </v-card-subtitle>
             <v-card-text v-if="display.xs.value" class="font-italic ps-0">
-              {{ item.date.loc.source }}
+              {{ rt(item.date) }}
             </v-card-text>
           </v-card>
         </v-timeline-item>
       </v-timeline>
     </div>
 
-    <basic-heading>{{ $t('projects.title') }}</basic-heading>
+    <basic-heading>{{ t('projects.title') }}</basic-heading>
 
     <v-row class="my-3">
       <v-col
@@ -52,7 +52,7 @@ const display = useDisplay()
 
     <basic-paragraph class="mt-10 mb-16 font-italic">
       <v-icon>mdi-dots-horizontal-circle-outline</v-icon>
-      {{ $t('experience.more') }}
+      {{ t('experience.more') }}
     </basic-paragraph>
   </v-container>
 </template>

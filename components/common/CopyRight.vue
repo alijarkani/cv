@@ -1,13 +1,14 @@
 <script setup lang="ts">
 const year = (new Date()).getFullYear()
+const { t } = useI18n()
 </script>
 
 <template>
   <div class="d-flex flex-column flex-sm-row py-2 font-italic text-center">
-    <span>© {{ year }} {{ $t('copyright.message') }}</span>
+    <span>© {{ year }} {{ t('copyright.message') }}</span>
     <v-spacer />
     <span>
-      {{ $t('copyright.design') }}
+      {{ t('copyright.design') }}
       <a
         class="text-decoration-none"
         href="https://en.wikipedia.org/wiki/Love"
@@ -16,7 +17,7 @@ const year = (new Date()).getFullYear()
       >
         <v-icon color="red" size="x-small">mdi-heart</v-icon>
       </a>
-      {{ $t('copyright.design_by') }}
+      {{ t('copyright.design_by') }}
     </span>
   </div>
 </template>

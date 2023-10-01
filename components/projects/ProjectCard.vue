@@ -7,6 +7,7 @@ interface Props {
 }
 
 defineProps<Props>()
+const { t } = useI18n()
 </script>
 
 <template>
@@ -22,19 +23,19 @@ defineProps<Props>()
     />
 
     <v-card-title>
-      {{ $t(`projects.${project.name}.title`) }}
+      {{ t(`projects.${project.name}.title`) }}
     </v-card-title>
 
     <v-card-subtitle>
-      {{ $t(`projects.${project.name}.subtitle`) }}
+      {{ t(`projects.${project.name}.subtitle`) }}
     </v-card-subtitle>
 
     <v-card-text>
-      <p>{{ $t('projects.role') }}: {{ $t(`projects.roles.${project.role}`) }}</p>
+      <p>{{ t('projects.role') }}: {{ t(`projects.roles.${project.role}`) }}</p>
 
       <v-chip-group class="mt-2" variant="outlined">
         <v-chip v-for="tag in project.tags" :key="tag" class="ma-1">
-          {{ $t(`projects.tags.${tag}`) }}
+          {{ t(`projects.tags.${tag}`) }}
         </v-chip>
       </v-chip-group>
     </v-card-text>

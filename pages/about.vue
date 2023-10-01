@@ -1,16 +1,17 @@
 <script setup lang="ts">
+import { EducationItem } from '~/types/education'
 const display = useDisplay()
-const { tm } = useI18n()
+const { tm, rt, t } = useI18n()
 </script>
 
 <template>
   <v-container class="pb-0">
     <v-row>
       <v-col cols="12" md="8" class="pb-0">
-        <basic-heading>{{ $t('about.title') }}</basic-heading>
+        <basic-heading>{{ t('about.title') }}</basic-heading>
 
         <basic-paragraph>
-          {{ $t('about.description') }}
+          {{ t('about.description') }}
         </basic-paragraph>
 
         <div>
@@ -19,7 +20,7 @@ const { tm } = useI18n()
             :key="label"
             class="me-1 mb-1"
           >
-            {{ label.loc.source }}
+            {{ rt(label) }}
           </v-chip>
         </div>
       </v-col>
@@ -30,24 +31,24 @@ const { tm } = useI18n()
 
     <v-row class="my-5">
       <v-col>
-        <basic-heading>{{ $t('education.title') }}</basic-heading>
+        <basic-heading>{{ t('education.title') }}</basic-heading>
         <v-table>
           <thead class="font-italic">
             <tr>
-              <th>{{ $t('education.grade') }}</th>
-              <th>{{ $t('education.major') }}</th>
-              <th>{{ $t('education.university') }}</th>
-              <th>{{ $t('education.location') }}</th>
-              <th>{{ $t('education.date') }}</th>
+              <th>{{ t('education.grade') }}</th>
+              <th>{{ t('education.major') }}</th>
+              <th>{{ t('education.university') }}</th>
+              <th>{{ t('education.location') }}</th>
+              <th>{{ t('education.date') }}</th>
             </tr>
           </thead>
           <tbody>
-            <tr v-for="item in tm('education.items')" :key="item.grade.loc.source">
-              <td>{{ item.grade.loc.source }}</td>
-              <td>{{ item.major.loc.source }}</td>
-              <td>{{ item.university.loc.source }}</td>
-              <td>{{ item.location.loc.source }}</td>
-              <td>{{ item.date.loc.source }}</td>
+            <tr v-for="item in tm('education.items') as Array<EducationItem>" :key="rt(item.grade)">
+              <td>{{ rt(item.grade) }}</td>
+              <td>{{ rt(item.major) }}</td>
+              <td>{{ rt(item.university) }}</td>
+              <td>{{ rt(item.location) }}</td>
+              <td>{{ rt(item.date) }}</td>
             </tr>
           </tbody>
         </v-table>
@@ -56,11 +57,11 @@ const { tm } = useI18n()
 
     <v-row class="my-5">
       <v-col>
-        <basic-heading>{{ $t('honors.title') }}</basic-heading>
+        <basic-heading>{{ t('honors.title') }}</basic-heading>
         <div>
-          <basic-paragraph v-for="item in tm('honors.items')" :key="item.loc.source">
+          <basic-paragraph v-for="item in tm('honors.items')" :key="rt(item)">
             <v-icon>mdi-check</v-icon>
-            {{ item.loc.source }}
+            {{ rt(item) }}
           </basic-paragraph>
         </div>
       </v-col>

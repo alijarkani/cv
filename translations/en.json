@@ -7,12 +7,14 @@
     "job": "Programmer"
   },
   "sidebar": {
+    "*": "🤷🏻‍♂️",
     "home": "Home",
     "about": "About",
     "skills": "Skills",
     "experiences": "Experiences"
   },
   "social": {
+    "*": "🤷🏻‍♂️",
     "github": "Github",
     "linkedin": "LinkedIn",
     "twitter": "Twitter",
@@ -64,6 +66,7 @@
     ]
   },
   "skill": {
+    "*": "🤷🏻‍♂️",
     "scientific": "Scientific Programming",
     "python": "Python",
     "matlab": "Matlab",
@@ -128,11 +131,13 @@
     "preview": "Preview",
     "role": "Role",
     "roles": {
+      "*": "🤷🏻‍♂️",
       "frontend": "FrontEnd Developer",
       "backend": "BackEnd Developer",
       "fullstack": "Full Stack Developer"
     },
     "tags": {
+      "*": "🤷🏻‍♂️",
       "vue":  "Vue",
       "nuxt":  "Nuxt",
       "vuetify": "Vuetify",
@@ -149,6 +154,10 @@
       "orm": "ORM",
       "mvc": "MVC",
       "angularjs": "AngularJS"
+    },
+    "*": {
+      "title": "🤷🏻‍♂️",
+      "subtitle": "🤷🏻‍♂️"
     },
     "madreseh_plus": {
       "title": "Madreseh Plus",

@@ -9,6 +9,7 @@ interface Props {
 
 const props = defineProps<Props>()
 const { title, items, icon } = props
+const { t } = useI18n()
 </script>
 
 <template>
@@ -17,12 +18,12 @@ const { title, items, icon } = props
       <v-icon v-if="icon" size="small" class="me-2">
         {{ icon }}
       </v-icon>
-      <span>{{ $t(`skill.${title}`) }}</span>
+      <span>{{ t(`skill.${title}`) }}</span>
     </h5>
     <div class="ps-5">
       <v-row v-for="item in items" :key="item.key">
         <v-col>
-          <a target="_blank" :href="item.url" class="font-weight-bold font-italic text-decoration-none text-white">{{ $t(`skill.${item.key}`) }}</a>
+          <a target="_blank" :href="item.url" class="font-weight-bold font-italic text-decoration-none text-white">{{ t(`skill.${item.key}`) }}</a>
         </v-col>
         <v-col>
           <v-rating

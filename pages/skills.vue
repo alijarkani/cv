@@ -11,15 +11,16 @@ const blocks = [
 ]
 
 const template = ref(blocks.map(e => `'${e}'`).join(' '))
+const { t } = useI18n()
 </script>
 
 <template>
   <v-container>
-    <basic-heading>{{ $t('sidebar.skills') }}</basic-heading>
+    <basic-heading>{{ t('sidebar.skills') }}</basic-heading>
     <skills-group :template="template" :groups="skills" />
     <basic-paragraph class="mt-10 mb-16 font-italic">
       <v-icon>mdi-dots-horizontal-circle-outline</v-icon>
-      {{ $t('skill.more') }}
+      {{ t('skill.more') }}
     </basic-paragraph>
   </v-container>
 </template>

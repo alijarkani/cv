@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import socials from '~/constants/social.json'
+const { t } = useI18n()
 </script>
 
 <template>
@@ -17,7 +18,7 @@ import socials from '~/constants/social.json'
         activator="parent"
         location="top"
       >
-        {{ $t(`social.${social.key}`) }}
+        {{ t(`social.${social.key}`) }}
       </v-tooltip>
     </a>
   </div>

@@ -4,6 +4,7 @@ interface Props {
 }
 
 defineProps<Props>()
+const { t } = useI18n()
 </script>
 
 <template>
@@ -13,7 +14,7 @@ defineProps<Props>()
         v-bind="props"
         variant="text"
       >
-        {{ $t('projects.preview') }}
+        {{ t('projects.preview') }}
       </v-btn>
     </template>
 
