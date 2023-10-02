@@ -20,6 +20,7 @@
     "github": "Github",
     "linkedin": "LinkedIn",
     "twitter": "Twitter",
+    "instagram": "Instagram",
     "telegram": "Telegram"
   },
   "home": {
@@ -32,7 +33,6 @@
     "labels": [
       "Web Full Stack",
       "AI Engineer",
-      "Data Scientist",
       "Deep Learning Engineer",
       "Researcher"
     ]
