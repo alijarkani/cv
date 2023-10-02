@@ -10,12 +10,12 @@
     "to": "/about"
   },
   {
-    "icon": "mdi-wrench",
+    "icon": "mdi-apps",
     "key": "skills",
     "to": "/skills"
   },
   {
-    "icon": "mdi-application",
+    "icon": "mdi-seal-variant",
     "key": "experiences",
     "to": "/experiences"
   }
