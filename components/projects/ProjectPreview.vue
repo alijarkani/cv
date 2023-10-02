@@ -22,7 +22,7 @@ const { t } = useI18n()
       <v-card class="position-relative" color="transparent">
         <v-btn class="ma-2 close-btn" color="white" variant="tonal" icon="mdi-close" @click="isActive.value = false" />
 
-        <v-img :src="src">
+        <v-img :src="src" alt="Project preview">
           <template #placeholder>
             <div class="d-flex align-center justify-center fill-height">
               <v-progress-circular

@@ -23,14 +23,14 @@ useSeoMeta({
           <v-chip
             v-for="label in tm('about.labels')"
             :key="label"
-            class="me-1 mb-1"
+            class="me-1 mb-1 chip"
           >
             {{ rt(label) }}
           </v-chip>
         </div>
       </v-col>
       <v-col v-if="display.mdAndUp.value" cols="12" md="4" class="image-box" :class="{'push-down': display.md.value}">
-        <v-img width="300" class="mx-auto grayscale" src="/images/body.png" />
+        <v-img width="300" class="mx-auto grayscale" src="/images/body.png" alt="Ali Jarkani" />
       </v-col>
     </v-row>
 
@@ -73,12 +73,19 @@ useSeoMeta({
     </v-row>
 
     <div v-if="display.smAndDown.value" class="mt-5">
-      <v-img max-width="300" class="mx-auto grayscale" src="/images/body.png" />
+      <v-img max-width="300" class="mx-auto grayscale" src="/images/body.png" alt="Ali Jarkani" />
     </div>
   </v-container>
 </template>
 
 <style>
+.chip {
+  background: rgba(30, 30, 30, 0.9);
+  border: 1px solid #fff7;
+  font-weight: bold!important;
+  font-style: italic;
+}
+
 th {
   font-weight: bold!important;
   color: white!important;

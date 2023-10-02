@@ -20,6 +20,8 @@ const transition: TransitionProps = {
 
 <template>
   <v-app>
+    <VitePwaManifest />
+    <NuxtLoadingIndicator />
     <BackgroundAnimation />
     <v-locale-provider :rtl="isRtl">
       <NuxtLayout>

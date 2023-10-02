@@ -13,7 +13,7 @@ const { t } = useI18n()
         class="text-decoration-none"
         href="https://en.wikipedia.org/wiki/Love"
         target="_blank"
-        nofollow
+        rel="nofollow"
       >
         <v-icon color="red" size="x-small">mdi-heart</v-icon>
       </a>

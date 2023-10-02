@@ -4,11 +4,16 @@ import AppBar from '~/components/common/AppBar.vue'
 import CopyRight from '~/components/common/CopyRight.vue'
 
 const route = useRoute()
+const locale = useLocale()
 
 useHead({
+  htmlAttrs: {
+    lang: locale.current.value,
+  },
   meta: [
     { property: 'og:image', content: '/avatar.png' },
     { property: 'og:url', content: route.fullPath },
+    { name: 'theme-color', content: '#000' },
   ]
 })
 </script>

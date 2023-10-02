@@ -16,6 +16,7 @@ export default defineNuxtConfig({
     '@nuxtjs/eslint-module',
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
+    '@vite-pwa/nuxt',
   ],
   app: {
     layoutTransition: { name: 'layout', mode: 'out-in', duration: 800 },
@@ -33,4 +34,43 @@ export default defineNuxtConfig({
     },
   },
   i18n,
+  pwa: {
+    registerType: 'autoUpdate',
+    manifest: {
+      name: 'Ali Jarkani',
+      short_name: 'PersonalWebsite',
+      theme_color: '#000',
+      icons: [
+        {
+          src: '/images/icon-192x192.png',
+          sizes: '192x192',
+          type: 'image/png',
+        },
+        {
+          src: '/images/icon-512x512.png',
+          sizes: '512x512',
+          type: 'image/png',
+        },
+        {
+          src: '/images/icon-512x512.png',
+          sizes: '512x512',
+          type: 'image/png',
+          purpose: 'any maskable',
+        },
+      ],
+    },
+    workbox: {
+      navigateFallback: '/',
+      globPatterns: ['**/*.{js,css,html,png,svg,ico}'],
+    },
+    client: {
+      installPrompt: true,
+    },
+    devOptions: {
+      enabled: true,
+      suppressWarnings: true,
+      navigateFallbackAllowlist: [/^\/$/],
+      type: 'module',
+    },
+  },
 })

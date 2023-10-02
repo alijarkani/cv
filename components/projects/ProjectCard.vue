@@ -20,6 +20,7 @@ const { t } = useI18n()
       :src="project.thumbnail"
       height="200px"
       cover
+      :alt="t(`projects.${project.name}.title`)"
     />
 
     <v-card-title>

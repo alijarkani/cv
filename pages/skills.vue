@@ -23,6 +23,7 @@ useSeoMeta({
   <v-container>
     <basic-heading>{{ t('skill.title') }}</basic-heading>
     <basic-paragraph>{{ t('skill.description') }}</basic-paragraph>
+    <v-divider class="mt-2 mb-4" />
     <skills-group :template="template" :groups="skills" />
     <basic-paragraph class="mt-10 mb-16 font-italic">
       <v-icon>mdi-dots-horizontal-circle-outline</v-icon>

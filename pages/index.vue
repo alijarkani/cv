@@ -25,12 +25,12 @@ useSeoMeta({
           <br>
           <span>{{ t('owner.last_name') }}</span>
         </div>
-        <p class="text-h5 font-weight-bold font-italic">
+        <p class="text-h5 font-weight-bold font-italic mt-4">
           {{ t('owner.job') }}
         </p>
       </v-col>
       <v-col class="align-self-center my-3">
-        <v-img class="mx-auto shaped" width="400" src="/images/full.jpeg" />
+        <v-img class="mx-auto shaped" width="400" src="/images/full.jpeg" alt="Ali Jarkani" />
       </v-col>
     </v-row>
     <v-divider />
