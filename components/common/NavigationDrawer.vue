@@ -1,11 +1,9 @@
 <script setup lang="ts">
 import { useCommonStore } from '~/stores/common'
 import SocialMedia from '~/components/common/SocialMedia.vue'
-import SwitchLocale from '~/components/common/SwitchLocale.vue'
 import items from '~/constants/sidebar.json'
 
 const localePath = useLocalePath()
-const display = useDisplay()
 const common = useCommonStore()
 const { t } = useI18n()
 </script>
@@ -14,8 +12,7 @@ const { t } = useI18n()
   <v-navigation-drawer
     v-model="common.showNavigationDrawer"
     color="secondary"
-    :permanent="!display.mobile"
-    :temporary="display.mobile.value"
+    temporary
   >
     <template #prepend>
       <v-list-item
@@ -32,9 +29,6 @@ const { t } = useI18n()
               :alt="t('owner.full_name')"
             />
           </v-avatar>
-        </template>
-        <template #append>
-          <SwitchLocale />
         </template>
       </v-list-item>
     </template>
