@@ -2,6 +2,15 @@
 import NavigationDrawer from '~/components/common/NavigationDrawer.vue'
 import AppBar from '~/components/common/AppBar.vue'
 import CopyRight from '~/components/common/CopyRight.vue'
+
+const route = useRoute()
+
+useHead({
+  meta: [
+    { property: 'og:image', content: '/avatar.png' },
+    { property: 'og:url', content: route.fullPath },
+  ]
+})
 </script>
 
 <template>

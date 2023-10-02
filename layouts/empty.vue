@@ -1,4 +1,12 @@
 <script setup lang="ts">
+const route = useRoute()
+
+useHead({
+  meta: [
+    { property: 'og:image', content: '/avatar.png' },
+    { property: 'og:url', content: route.fullPath },
+  ]
+})
 </script>
 
 <template>

@@ -12,11 +12,17 @@ const blocks = [
 
 const template = ref(blocks.map(e => `'${e}'`).join(' '))
 const { t } = useI18n()
+
+useSeoMeta({
+  title: t('skill.title'),
+  description: t('skill.description'),
+})
 </script>
 
 <template>
   <v-container>
-    <basic-heading>{{ t('sidebar.skills') }}</basic-heading>
+    <basic-heading>{{ t('skill.title') }}</basic-heading>
+    <basic-paragraph>{{ t('skill.description') }}</basic-paragraph>
     <skills-group :template="template" :groups="skills" />
     <basic-paragraph class="mt-10 mb-16 font-italic">
       <v-icon>mdi-dots-horizontal-circle-outline</v-icon>

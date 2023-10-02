@@ -2,6 +2,11 @@
 import { EducationItem } from '~/types/education'
 const display = useDisplay()
 const { tm, rt, t } = useI18n()
+
+useSeoMeta({
+  title: t('about.title'),
+  description: t('about.description'),
+})
 </script>
 
 <template>

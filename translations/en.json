@@ -22,6 +22,10 @@
     "twitter": "Twitter",
     "telegram": "Telegram"
   },
+  "home": {
+    "title": "Ali Jarkani, Personal Website",
+    "description": "My name is Ali and this is my personal website, here you can read about me and my works, experiences, skills, etc."
+  },
   "about": {
     "title": "Who am I?",
     "description": "I am a passionate programmer with extensive experience in web development, both on the frontend and backend. Throughout my journey, I have honed my skills in various programming languages and technologies. However, my true fascination lies in the realm of artificial intelligence. Specifically, I have a deep interest in machine learning, particularly deep learning techniques. Additionally, I possess expertise in computer vision and digital image processing. With a strong foundation and a curious mind, I am constantly seeking new challenges to further expand my knowledge and skills in everything related to programming.",
@@ -68,6 +72,8 @@
     ]
   },
   "skill": {
+    "title": "Skills",
+    "description": "Here you can find some of my skills in programming and artificial intelligence area",
     "*": "🤷🏻‍♂️",
     "scientific": "Scientific Programming",
     "python": "Python",

@@ -1,8 +1,17 @@
 <script setup lang="ts">
+import { Experience } from '~/types/experience'
 import projects from '~/constants/projects.json'
 import ProjectCard from '~/components/projects/ProjectCard.vue'
 const { tm, rt, t } = useI18n()
 const display = useDisplay()
+
+const description = (tm('experience.items') as Array<Experience>)
+  .map(item => rt(item.title)).join(', ')
+
+useSeoMeta({
+  title: t('experience.title'),
+  description,
+})
 </script>
 
 <template>

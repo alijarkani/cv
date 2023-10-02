@@ -2,6 +2,11 @@
 import contact from '~/constants/contact.json'
 import SocialMedia from '~/components/common/SocialMedia.vue'
 const { t } = useI18n()
+
+useSeoMeta({
+  title: t('contact.title'),
+  description: t('contact.message'),
+})
 </script>
 
 <template>

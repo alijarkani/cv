@@ -9,6 +9,11 @@ const buttons = items.filter(item => item.key !== 'home')
 definePageMeta({
   layout: 'empty'
 })
+
+useSeoMeta({
+  title: t('home.title'),
+  description: t('home.description'),
+})
 </script>
 
 <template>
