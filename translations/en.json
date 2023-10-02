@@ -1,10 +1,11 @@
 {
   "title": "Personal Website",
+  "language": "Language",
   "owner": {
     "first_name": "Ali",
     "last_name": "Jarkani",
     "full_name": "Ali Jarkani",
-    "job": "Programmer"
+    "job": "Programmer Researcher"
   },
   "sidebar": {
     "*": "🤷🏻‍♂️",
@@ -138,8 +139,8 @@
     },
     "tags": {
       "*": "🤷🏻‍♂️",
-      "vue":  "Vue",
-      "nuxt":  "Nuxt",
+      "vue": "Vue",
+      "nuxt": "Nuxt",
       "vuetify": "Vuetify",
       "typescript": "TypeScript",
       "javascript": "JavaScript",
