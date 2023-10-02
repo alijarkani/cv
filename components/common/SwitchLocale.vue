@@ -7,7 +7,9 @@ const locales = i18n.locales
 <template>
   <v-menu>
     <template #activator="{ props }">
-      <v-btn size="x-small" variant="tonal" icon="mdi-translate" v-bind="props" />
+      <slot name="activator" :props="props">
+        <v-btn size="x-small" variant="tonal" icon="mdi-translate" v-bind="props" />
+      </slot>
     </template>
 
     <v-list>
