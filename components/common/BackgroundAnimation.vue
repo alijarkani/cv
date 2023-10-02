@@ -36,7 +36,7 @@ async function particlesInit (engine: Engine): Promise<void> {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("/pattern.png") repeat;
+  background: url("/images/pattern.png") repeat;
 }
 
 #tsparticles {

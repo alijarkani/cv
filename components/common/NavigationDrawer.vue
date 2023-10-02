@@ -24,7 +24,7 @@ const { t } = useI18n()
         <template #prepend>
           <v-avatar size="85" class="rounded-0">
             <v-img
-              src="/avatar.png"
+              src="/images/avatar.png"
               :alt="t('owner.full_name')"
             />
           </v-avatar>

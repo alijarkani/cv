@@ -30,7 +30,7 @@ useSeoMeta({
         </div>
       </v-col>
       <v-col v-if="display.mdAndUp.value" cols="12" md="4" class="image-box" :class="{'push-down': display.md.value}">
-        <v-img width="300" class="mx-auto grayscale" src="/body.png" />
+        <v-img width="300" class="mx-auto grayscale" src="/images/body.png" />
       </v-col>
     </v-row>
 
@@ -73,7 +73,7 @@ useSeoMeta({
     </v-row>
 
     <div v-if="display.smAndDown.value" class="mt-5">
-      <v-img max-width="300" class="mx-auto grayscale" src="/body.png" />
+      <v-img max-width="300" class="mx-auto grayscale" src="/images/body.png" />
     </div>
   </v-container>
 </template>

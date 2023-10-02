@@ -30,7 +30,7 @@ useSeoMeta({
         </p>
       </v-col>
       <v-col class="align-self-center my-3">
-        <v-img class="mx-auto shaped" width="400" src="/full.jpeg" />
+        <v-img class="mx-auto shaped" width="400" src="/images/full.jpeg" />
       </v-col>
     </v-row>
     <v-divider />

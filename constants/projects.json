@@ -2,8 +2,8 @@
   {
     "name": "madreseh_plus",
     "role": "frontend",
-    "image": "/projects/m-plus.jpg",
-    "thumbnail": "/projects/thumbnail/m-plus.jpg",
+    "image": "/images/projects/m-plus.jpg",
+    "thumbnail": "/images/projects/thumbnail/m-plus.jpg",
     "url": "https://adviser.madreseplus.com/",
     "tags": [
       "vue",
@@ -16,8 +16,8 @@
   {
     "name": "azhir",
     "role": "fullstack",
-    "image": "/projects/azhir.jpg",
-    "thumbnail": "/projects/thumbnail/azhir.jpg",
+    "image": "/images/projects/azhir.jpg",
+    "thumbnail": "/images/projects/thumbnail/azhir.jpg",
     "url": "https://www.pana.ir/photo/838176",
     "tags": [
       "symfony",
@@ -32,8 +32,8 @@
   {
     "name": "khayerin",
     "role": "backend",
-    "image": "/projects/khayerin.jpg",
-    "thumbnail": "/projects/thumbnail/khayerin.jpg",
+    "image": "/images/projects/khayerin.jpg",
+    "thumbnail": "/images/projects/thumbnail/khayerin.jpg",
     "url": "https://kh-salamat-sk.ir/",
     "tags": [
       "php",
@@ -46,8 +46,8 @@
   {
     "name": "achareh",
     "role": "frontend",
-    "image": "/projects/achareh.jpg",
-    "thumbnail": "/projects/thumbnail/achareh.jpg",
+    "image": "/images/projects/achareh.jpg",
+    "thumbnail": "/images/projects/thumbnail/achareh.jpg",
     "url": "https://experts.achareh.co/",
     "tags": [
       "vue",
@@ -61,8 +61,8 @@
   {
     "name": "ajilux",
     "role": "backend",
-    "image": "/projects/ajilux.jpg",
-    "thumbnail": "/projects/thumbnail/ajilux.jpg",
+    "image": "/images/projects/ajilux.jpg",
+    "thumbnail": "/images/projects/thumbnail/ajilux.jpg",
     "url": "https://ajiluxashkanan.ir/",
     "tags": [
       "php",
@@ -75,8 +75,8 @@
   {
     "name": "uisssa",
     "role": "backend",
-    "image": "/projects/uisssa.jpg",
-    "thumbnail": "/projects/thumbnail/uisssa.jpg",
+    "image": "/images/projects/uisssa.jpg",
+    "thumbnail": "/images/projects/thumbnail/uisssa.jpg",
     "tags": [
       "php",
       "symfony",
@@ -88,8 +88,8 @@
   {
     "name": "cms",
     "role": "fullstack",
-    "image": "/projects/cms.jpg",
-    "thumbnail": "/projects/thumbnail/cms.jpg",
+    "image": "/images/projects/cms.jpg",
+    "thumbnail": "/images/projects/thumbnail/cms.jpg",
     "tags": [
       "php",
       "symfony",
