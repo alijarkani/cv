@@ -17,6 +17,9 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
   ],
+  app: {
+    layoutTransition: { name: 'layout', mode: 'out-in', duration: 800 }
+  },
   vuetify: {
     vuetifyOptions: {
       theme: {

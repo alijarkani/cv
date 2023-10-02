@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { TransitionProps } from 'vue'
+import BackgroundAnimation from '~/components/common/BackgroundAnimation.vue'
 const { isRtl } = useRtl()
 const locale = useLocale()
 
@@ -11,7 +12,7 @@ const onBeforeEnter = async () => {
 }
 
 const transition: TransitionProps = {
-  name: 'slide',
+  name: 'page',
   mode: 'out-in',
   onBeforeEnter,
 }
@@ -19,6 +20,7 @@ const transition: TransitionProps = {
 
 <template>
   <v-app>
+    <BackgroundAnimation />
     <v-locale-provider :rtl="isRtl">
       <NuxtLayout>
         <NuxtPage :transition="transition" />
@@ -28,21 +30,30 @@ const transition: TransitionProps = {
 </template>
 
 <style>
-.slide-enter-active,
-.slide-leave-active {
+.page-enter-active,
+.page-leave-active {
     transition: all 0.5s;
 }
-.slide-enter-from,
-.slide-leave-to {
+.page-enter-from,
+.page-leave-to {
     opacity: 0;
     transform: translate(-100px, 0);
 }
 
 .v-locale--is-rtl {
-    .slide-enter-from,
-    .slide-leave-to {
-        transform: translate(100px, 0);
-    }
+  .page-enter-from,
+  .page-leave-to {
+    transform: translate(100px, 0);
+  }
+}
+
+.layout-enter-active,
+.layout-leave-active {
+  transition: all .4s ease;
+}
+.layout-enter-from,
+.layout-leave-to {
+  opacity: 0;
 }
 
 </style>
