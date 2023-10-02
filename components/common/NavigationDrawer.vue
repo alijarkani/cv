@@ -17,13 +17,12 @@ const { t } = useI18n()
     <template #prepend>
       <v-list-item
         lines="three"
-        prepend-avatar="/avatar.png"
         :title="t('owner.full_name')"
         :subtitle="t('owner.job')"
         class="user"
       >
         <template #prepend>
-          <v-avatar size="55">
+          <v-avatar size="85" class="rounded-0">
             <v-img
               src="/avatar.png"
               :alt="t('owner.full_name')"
@@ -54,7 +53,12 @@ const { t } = useI18n()
 <style lang="scss">
 .v-navigation-drawer {
   .v-avatar {
-    border: 1px solid #ffffff44;
+    transform: rotate(4deg);
+    transition: all 1s ease;
+  }
+
+  .v-avatar:hover {
+    transform: rotate(0);
   }
 
   .user {
