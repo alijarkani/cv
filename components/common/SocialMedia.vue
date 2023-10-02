@@ -9,7 +9,7 @@ const { t } = useI18n()
       v-for="(social, i) in socials"
       :key="i"
       :href="social.url"
-      class="mx-2 text-white"
+      class="mx-2 text-white text-decoration-none"
       target="_blank"
       rel="nofollow"
     >
