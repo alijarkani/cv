@@ -1,4 +1,5 @@
 $family: "Lora", "Vazirmatn", sans-serif;
+$stylish: "Lora", "PersianKhatKhati", "Vazirmatn", sans-serif;
 
 @use "../../node_modules/vuetify" with (
   $font-size-root: 1.0rem,
@@ -7,6 +8,10 @@ $family: "Lora", "Vazirmatn", sans-serif;
 
 html {
   font-family: $family;
+}
+
+.stylish {
+  font-family: $stylish!important;
 }
 
 .big-text {

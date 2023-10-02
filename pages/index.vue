@@ -15,13 +15,13 @@ definePageMeta({
   <v-container>
     <v-row class="my-10">
       <v-col class="ps-2 ps-md-16 my-3 text-center text-lg-start">
-        <div class="text-primary page-title" :class="{'huge-text': display.smAndUp.value}">
-          <span>Ali</span>
+        <div class="text-primary page-title stylish" :class="{'huge-text': display.smAndUp.value}">
+          <span>{{ t('owner.first_name') }}</span>
           <br>
-          <span>Jarkani</span>
+          <span>{{ t('owner.last_name') }}</span>
         </div>
         <p class="text-h5 font-weight-bold font-italic">
-          Programmer and Researcher
+          {{ t('owner.job') }}
         </p>
       </v-col>
       <v-col class="align-self-center my-3">
@@ -39,7 +39,8 @@ definePageMeta({
           color="white"
           variant="tonal"
           size="x-large"
-          class="font-weight-bold mx-2 my-1"
+          class="font-weight-bold mx-sm-2 my-2"
+          :block="display.xs.value"
         >
           {{ t(`sidebar.${item.key}`) }}
         </v-btn>
@@ -51,8 +52,9 @@ definePageMeta({
               color="white"
               variant="tonal"
               size="x-large"
-              class="font-weight-bold mx-2 my-1"
+              class="font-weight-bold mx-sm-2 my-2"
               v-bind="props"
+              :block="display.xs.value"
             >
               {{ t('language') }}
             </v-btn>
@@ -88,7 +90,7 @@ definePageMeta({
   position: absolute;
   width: 25px;
   height: 25px;
-  background-color: #ed553b;
+  border: 2px solid #ed553b;
   border-radius: 50%;
 }
 
@@ -108,6 +110,7 @@ definePageMeta({
 .shaped img {
   border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
   animation-delay: 1s!important;
+  border: 1px solid #ffffff88;
 }
 
 .shaped img, .shaped:before, .shaped:after {
