@@ -12,7 +12,8 @@
     "home": "Home",
     "about": "About",
     "skills": "Skills",
-    "experiences": "Experiences"
+    "experiences": "Experiences",
+    "contact": "Contact"
   },
   "social": {
     "*": "🤷🏻‍♂️",
@@ -103,7 +104,7 @@
   },
   "copyright": {
     "message": "All Rights Reserved.",
-    "design": "Design with",
+    "design": "Designed with",
     "design_by": "by myself!"
   },
   "experience": {
@@ -187,6 +188,20 @@
     "cms": {
       "title": "PenCode CMS",
       "subtitle": "Admin Panel"
+    }
+  },
+  "contact": {
+    "title": "Let's have a talk",
+    "message": "Feel free to contact me for freelance projects related to web development, machine learning, deep learning, data science, etc.",
+    "email": "Email",
+    "location": "Location",
+    "phone": "Phone",
+    "*": "🤷🏻‍♂️",
+    "isfahan": "Isfahan, Iran",
+    "form": {
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send"
     }
   }
 }

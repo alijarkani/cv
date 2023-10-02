@@ -18,5 +18,10 @@
     "icon": "mdi-seal-variant",
     "key": "experiences",
     "to": "/experiences"
+  },
+  {
+    "icon": "mdi-message-processing-outline",
+    "key": "contact",
+    "to": "/contact"
   }
 ]
